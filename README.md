@@ -1,4 +1,10 @@
 # 202230220 양종호
+# 2026-09-23
+### Link Component
+1. <Link>를 통해서 페이지간 이동이 가능   
+   >```
+   ><Link href={"/"}>Home</Link> | <Link href={"/blog"}>Blog</Link>
+   >```
 # 2026-09-16
 ### Folder and file conventions
 1. 라우팅 그룹 및 비공개 폴더
