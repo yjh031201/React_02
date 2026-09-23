@@ -6,6 +6,10 @@
    >```   
    ><Link href={"/"}>Home</Link> | <Link href={"/blog"}>Blog</Link>   
    >```
+2. searchParam
+   >URL의 쿼리 문자열을 읽는 방법   
+   >예시 /product?category=shoes&page=2   
+   >여기서 ?뒤에 오는 category=shoes&page=2가 search param이다.   
 # 2026-09-16
 ### Folder and file conventions
 1. 라우팅 그룹 및 비공개 폴더
