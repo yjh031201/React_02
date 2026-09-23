@@ -8,8 +8,25 @@
    >```
 2. searchParam
    >URL의 쿼리 문자열을 읽는 방법   
-   >예시 /product?category=shoes&page=2   
+   >예시) /product?category=shoes&page=2   
    >여기서 ?뒤에 오는 category=shoes&page=2가 search param이다.   
+   >예제   
+   >```
+   >export default async function ProductPage({
+   > searchParams
+   >}:{
+   >    searchParams: Promise<{ id?: string; name?: string}>
+   >}) {
+   >    const {id ="non id", name="non name"}= await searchParams
+   >    return(
+   >     <div>
+   >         <h1>Product Page</h1>
+   >         <p>id: {id}</p>
+   >         <p>name: {name}</p>
+   >     </div>
+   > )
+   >}
+   >```
 # 2026-09-16
 ### Folder and file conventions
 1. 라우팅 그룹 및 비공개 폴더
