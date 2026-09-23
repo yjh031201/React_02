@@ -2,7 +2,7 @@
 # 2026-09-23
 ### Link Component
 1. ``` <Link> ```를 통해서 페이지간 이동이 가능   
-   >```   
+   >예시   ```   
    ><Link href={"/"}>Home</Link> | <Link href={"/blog"}>Blog</Link>   
    >```
 # 2026-09-16
