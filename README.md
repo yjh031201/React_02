@@ -14,13 +14,13 @@
    >콘텐츠가 포함된 첫 번째 페인트를 개선하고, 콘텐츠를 client에 점진적으로 스트리밍함.
 ### Next.js에서의 client와 server
 1. server component의 작동
-   >Next.js는 server에서 React의 API를 사용하여 렌더링을 조정함   
-   >렌더링 작업은 개별 라우팅 세그먼트 별 묶음으로 나뉨   
-   >server component는 RSC payload라는 특수한 데이터형식으로 렌더링 됨   
-   >client component와 RSC payload는 html을 미리 렌더링 하는데 사용함   
+   >Next.js는 server에서 React의 API를 사용하여 렌더링을 조정한다.   
+   >렌더링 작업은 개별 라우팅 세그먼트 별 묶음으로 나뉜다.   
+   >server component는 RSC payload라는 특수한 데이터형식으로 렌더링 된다.      
+   >client component와 RSC payload는 html을 미리 렌더링 하는데 사용한다.      
    >RSC란 렌더링된 React 서버 컴포넌트 트리의 간결한 직렬화 표현입니다.   
    >클라이언트 측 React는 이를 사용하여 브라우저의 DOM을 업데이트합니다.   
-   >RSC 페이로드에는 다음 내용이 포함됩니다.   
+   >RSC 페이로드에는 다음 내용이 포함 된다.   
    >>서버 구성 요소의 렌더링 결과   
    >>클라이언트 컴포넌트가 렌더링될 위치를 지정하는 자리 표시자와 해당 JavaScript 파일에 대한 참조입니다.   
    >>서버 컴포넌트에서 클라이언트 컴포넌트로 전달되는 모든 속성   
