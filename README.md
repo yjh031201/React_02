@@ -1,4 +1,17 @@
 # 202230220 양종호
+# 2026-10-14
+### server 및 client component
+1. client 환경과 server환경은 서로 다른 기능을 가지고 있다.   
+2. client component를 사용하는 경우   
+   >state및 event handler 예) onClick, onChange   
+   >Lifecycle logic 예) useEffect   
+   >브라우저 전용 API 예) localStorage, window, Navigator.geolocation   
+   >사용자 정의 Hook   
+3. server component를 사용하는 경우   
+   >서버의 데이터베이스 혹은 API에서 데이터를 가져오는 경우 사용함   
+   >API key, token 및 기타 보안 데이터를 client에 노출하지 않고 사용   
+   >브라우저로 전송되는 Javascript의 양을 줄이고 싶을 때 사용   
+   >콘텐츠가 포함된 첫 번째 페인트를 개선하고, 콘텐츠를 client에 점진적으로 스트리밍함   
 # 2026-10-07
 ### await이 없어도 async를 붙여 두는 이유
 1. 일관성 유지
