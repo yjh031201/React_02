@@ -3,7 +3,7 @@
 ### 클라이언트 구성 요소 사용
 1. "use client"클라이언트 컴포넌트를 생성하려면 파일 맨 위, 임포트 문 위에 지시문을 추가.
 ### JS bundle 크기 줄이기
-1. client JavaScript 번들의 크기를 줄이려면 UI의 큰 부분 클라이언트 구성요소로   
+1. client JavaScript 번들의 크기를 줄이려면 UI의 큰 부분을 client component로   
    표시하는 대신 대화형 구성 구성 요소를 정의 하는 파일의 가장 위에 "use client" 코드를 작성한다.
 ### server에서 client component로 데이터 전달
 1. props를 사용하면 server component에서 client component로 데이터 전달이 가능하다.
