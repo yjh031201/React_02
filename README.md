@@ -9,7 +9,7 @@
    >서버 컴포넌트에서 데이터를 fetch하는 방법은 두 가지가 있다   
    >1. fetch API   
    >2. ORM 또는 데이터베이스   
-3. fetch API 사용
+1-1. fetch API 사용
    >데이터를 가져오려면 fetch API를 사용하여 컴포넌트를 비동기식 함수로 변환하고 다음 fetch의 호출을 기다립니다.
 # 2026-11-04
 ### server 및 client component 인터리빙
