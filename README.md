@@ -13,7 +13,11 @@
    >Promise 객체는 status, header, body 등 HTTP 응답 전체를 포함한다.   
    >res.ok는 상태코드가 200-299인지 불리언(Boolean)으로 알려준다.   
    >res.status는 숫자로 알려준다. (예: 200,404)   
-   >fetch와 마찬가지로 예외처리는 별도로 해야한다.   
+   >fetch와 마찬가지로 예외처리는 별도로 해야한다.
+3. res.json()
+   >res.json()은 이 Response 객체의 본문(Body)을 JSON으로 파싱하는 비동기 함수다.   
+   >내부적으로 문자열 형태의Response body를읽고 SON.parse()를 수행하여 자바스크립트 객체로 변환 한다.   
+   >이 함수도 Promise를 반환하기 때문에 다시 then()체이닝을 통해 파싱된 데이터를 사용할 수 있다.   
 # 2026-11-18
 ### 외부 component
 1. component라이브러리를 빌드하는 경우, client 전용 기능에 의존하는 진입점에 "use client" 지시문을 추가   
