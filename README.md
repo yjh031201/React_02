@@ -5,7 +5,15 @@
    >new Promise()를 호출하면 promise 객체가 생성된다.   
    >생성자의 인자로 callback함수가 들어가는데, 이 callback은 두 개의 매개변수를 받는다.   
    >- resolve: 작업이 성공했을 때 호출하는 함수   
-   >- reject: 작업이 실패했을 때 호출하는 함수   
+   >- reject: 작업이 실패했을 때 호출하는 함수
+2. .then(res) =>...)
+   >fetch()가 반환한 Promise 객체가 .then() 메서드를 가지고 있다.   
+   >Promise객체가 resolve되면 .then()의 callback함수가 실행 된다.   
+   >여기서 res는 서버에서 반환된 Promise 객체다.   
+   >Promise 객체는 status, header, body 등 HTTP 응답 전체를 포함한다.   
+   >res.ok는 상태코드가 200-299인지 불리언(Boolean)으로 알려준다.   
+   >res.status는 숫자로 알려준다. (예: 200,404)   
+   >fetch와 마찬가지로 예외처리는 별도로 해야한다.   
 # 2026-11-18
 ### 외부 component
 1. component라이브러리를 빌드하는 경우, client 전용 기능에 의존하는 진입점에 "use client" 지시문을 추가   
